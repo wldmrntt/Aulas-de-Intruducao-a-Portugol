@@ -1,0 +1,33 @@
+Algoritmo "FuncaoExemplo"
+// Disciplina  : Criação e Aplicação e Sistemas
+// Professor   : Lucy Mari
+// Descrição   : Aula prática: 11 - Função sem parâmetro
+// Autor(a)    : Waldemir Alves de Melo Netto
+// Data atual  : 17/11/2022
+
+funcao soma:inteiro
+var aux:inteiro
+inicio
+// n, m e res são variáveis globais
+ aux <- n + m
+ retorne aux
+fimfuncao
+
+Var
+// Seção de Declarações das variáveis 
+n,m:inteiro
+res:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva ("Digite um número: ")
+leia (n)
+escreva ("Digite outro número: ")
+leia (m)
+escreval
+escreval ("---------")
+escreval
+res <- soma
+escreva (res)
+escreval
+Fimalgoritmo
