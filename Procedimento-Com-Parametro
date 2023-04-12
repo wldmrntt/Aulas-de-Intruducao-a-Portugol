@@ -1,7 +1,7 @@
 Algoritmo "ExemploCalculadoracomParametro"
-// Disciplina  : CriaÁ„o de AplicaÁ„o e Sistemas
+// Disciplina  : Cria√ß√£o de Aplica√ß√£o e Sistemas
 // Professor   : Lucy Mari
-// DescriÁ„o   : Atividade Pr·tica 10: FunÁıes: Procedimento com Par‚metros
+// Descri√ß√£o   : Atividade Pr√°tica 10: Fun√ß√µes: Procedimento com Par√¢metros
 // Autor(a)    : Waldemir Alves de Melo Netto
 // Data atual  : 17/11/2022
 
@@ -38,15 +38,15 @@ res <- aux
 fimprocedimento
 
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
 res, a, b: inteiro
 num: inteiro
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
-escreva ("Digite um n˙mero: ")
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
+escreva ("Digite um n√∫mero: ")
          leia (a)
-escreva ("Digite outro n˙mero: ")
+escreva ("Digite outro n√∫mero: ")
          leia (b)
 escreval ("------------")
          escreval ("Resuldado da soma: ")
@@ -54,17 +54,17 @@ soma (a,b)
          escreval (res)
 escreval ("------------")
          escreval ("Continuando procedimento")
-         escreval ("Resultado da subtraÁ„o: ")
+         escreval ("Resultado da subtra√ß√£o: ")
 sub (a,b)
          escreval (res)
 escreval ("------------")
          escreval ("Continuando procedimento")
-         escreval ("Resultado da multiplicaÁ„o: ")
+         escreval ("Resultado da multiplica√ß√£o: ")
 multi (a,b)
          escreval (res)
 escreval ("------------")
          escreval ("Continuando procedimento")
-         escreval ("Resultado da divis„o: ")
+         escreval ("Resultado da divis√£o: ")
 divisao (a,b)
          escreval (res)
 escreval ("------------")
