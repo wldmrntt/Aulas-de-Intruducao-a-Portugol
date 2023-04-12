@@ -1,0 +1,29 @@
+Algoritmo "ESCOLHA"
+// Disciplina  : Criação e Aplicação de Sistema
+// Professor   : Franklin Portela
+// Descrição   : ATIVIDADE PRÁTICA 5 ÍTEM B (função)
+// Autor(a)    : WALDEMIR ALVES DE MELO NETTO
+// Data atual  : 17/10/2022
+Var
+// Seção de Declarações das variáveis 
+ OP: inteiro
+ Num, resultado: real;
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ ESCREVAL ("OPÇÕES:")
+ ESCREVAL (" 1 - CALCULAR O DOBRO DO NÚMERO")
+ ESCREVAL (" 2 - CALCULAR O TRIPLO DO NÚMERO")
+ ESCREVAL (" ESCOLHA UMA OPÇÃO: ")
+ LEIA (OP)
+ ESCREVAL (" DIGITE O NÚMERO: ")
+ LEIA (NUM)
+ ESCOLHA (OP)
+         CASO 1
+         RESULTADO <- NUM*2
+         CASO 2
+         RESULTADO <- NUM*3
+ FIMESCOLHA
+ ESCREVAL (RESULTADO)
+
+Fimalgoritmo
